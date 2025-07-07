@@ -1,3 +1,6 @@
 p {
+    background-color: black;
+    display: inline block;
     color: red;
+    border-radius: 3px;
 }
