@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>sidebar</title>
+    <title>login page</title>
 </head>
 <body>
-    <p>Hello World</p>
+    <div class="form">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" placeholder="Type your username"><br><br>
+        <label for="password">Password</label><br>
+        <input type="text" id="userpassword" name="password" placeholder="Type your password"><br><br>
+         <button type="submit" id="login">Login</button>
+    </form><br>
+    <div class="signup">Don't have an account?<a href="#">Sign Up</a></div>
+</div>
 </body>
 </html>

@@ -1,6 +1,72 @@
-p {
+body {
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(255, 89, 89, 1) 100%, rgba(252, 176, 69, 1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+h2 {
+    padding-left: 75px;
+    
+}
+.form {
+   
+    display: block;
+    border: 1px solid black;
+    padding: 50px 40px 50px 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#username {
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+#userpassword {
+    
+    height: 20px;
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.5);
+}
+#username:focus {
+    outline: none;
+    border-color: #ff4d4d;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+#userpassword:focus {
+    outline: none;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+    border-color: #ff4d4d;
+}
+#login {
+    border-radius: 5px;
+    color: white;
     background-color: black;
-    display: inline block;
+    display: block;
+    border: none;
+    transition: all 0.3s ease;
+    width: 46px;
+    height: 23px;
+}
+#login:hover {
+    box-shadow: 0px 0px 10px red;
+    color: white;
+    transform: scale(1.02);
+}
+a {
+    transition: all 0.3s ease;
+}
+a:hover {
+    transform: scale(1.02);
     color: red;
-    border-radius: 3px;
+    background-color: black;
+    border-radius: 5px;
 }
